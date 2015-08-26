@@ -10,8 +10,8 @@ defmodule ExampleBug.PostView do
   end
 
   def render("post.json", %{post: post}) do
-    %{id: post.id
-      title: post.title
+    %{id: post.id,
+      title: post.title,
       content: post.content}
   end
 end
